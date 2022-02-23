@@ -1,3 +1,5 @@
+@import "base/base";
+
 /*
 COLORS:
 
@@ -14,13 +16,6 @@ $color-gray-dark: #777;
 $color-white: #fff;
 $color-black: #000;
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
 
 html {
   font-size: 62.5%;
