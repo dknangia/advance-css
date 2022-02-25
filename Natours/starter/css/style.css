@@ -82,7 +82,11 @@ body {
   letter-spacing: .2rem;
   transition: all .2s; }
   .heading-secondary:hover {
-    transform: skewY(2 deg); }
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem; }
+
+.u-center-text {
+  text-align: center; }
 
 .section-about {
   background-color: #f7f7f7;
@@ -111,14 +115,12 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row::after {
     content: "";
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: orangered;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
