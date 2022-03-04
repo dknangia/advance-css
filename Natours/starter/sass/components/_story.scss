@@ -18,6 +18,8 @@
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+        
+        /* "& > * {}" will not work here, so we need to target the items direclty */
         transform: translateX(-3rem) skewX(12deg);;
     }
 
@@ -30,6 +32,7 @@
         
     }
 
+    /* "& > * {}" will not work here, so we need to target the items direclty */
     &__text{
         transform: skewX(12deg);
     }
