@@ -12,6 +12,7 @@
    transform: skewY(-7deg);
    margin-top:-11.5rem;
 
+   /*In order to skew the child item so they will look straight and now skewed*/
    & > * {
       transform: skewY(7deg);
    }
