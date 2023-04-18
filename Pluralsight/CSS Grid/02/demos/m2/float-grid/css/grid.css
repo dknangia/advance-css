@@ -1,0 +1,10 @@
+body {
+    display: grid;
+
+    grid: repeat(3, 100%) /20em auto 15em;
+    
+}
+
+header, footer {
+    grid-column: 1 / 4;
+}
